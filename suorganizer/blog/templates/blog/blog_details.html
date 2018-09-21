@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{blog.title}}</title>
+</head>
+<body>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %} > - {{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2>Blog : {{blog.title}}</h2>
+    <ul>
+        <li> Message : {{blog.text}} </li>
+        <li> Date : {{blog.pub_date}} </li>
+
+    </ul>
+    <p>
+        <a href="/blog/{{blog.id}}/edit">Edit</a> |
+        <a href="/blog/{{blog.id}}/delete">Delete</a>
+    </p>
+
+
+
+
+
+
+</body>
+</html>

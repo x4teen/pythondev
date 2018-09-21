@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs</title>
+</head>
+<body>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %} > - {{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2>Blogs</h2>
+    <h3>User : {{user.name}}</h3>
+    <h3> Authenticated : {{user.is_logged_in}}</h3>
+    <ul>
+        {% for blog in blog_list %}
+        <li>
+            <a href="{{blog.id}}">{{blog.title|title}}</a>
+        </li>
+        {% empty %}
+        <li><em>There are currently no Blogs available.</em></li>
+        {% endfor %}
+    </ul>
+
+
+
+
+</body>
+</html>

@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from django.http.response import HttpResponse
+from django.shortcuts import render, get_object_or_404
+from django.contrib.auth.decorators import login_required
+from django.http.response import HttpResponse, Http404
 from . models import Tag
 from django.template import Context, loader
 
@@ -28,16 +29,24 @@ def htmltag(request):
     return HttpResponse(output)
 
 
-def tagpage(request):
+@login_required()
+def tag_list_page(request):
     tag_list = Tag.objects.all()
+
+    class UserData:
+        name = request.user
+        is_logged_in = request.user.is_authenticated
+
     template = loader.get_template('organizer/tag_list.html')
-    context = {'tag_list': tag_list}
+    context = {'tag_list': tag_list,
+               'user': UserData,
+               }
     output = template.render(context)
     return HttpResponse(output)
 
 
-def detail(request, tag_id):
-    tag = Tag.objects.get(id=tag_id)
+def tag_detail(request, tag_id):
+    tag = get_object_or_404(Tag, id=tag_id)
     template = loader.get_template('organizer/tag_details.html')
     context = {'tag': tag}
     output = template.render(context)
