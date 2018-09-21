@@ -5,6 +5,7 @@ from . models import Post
 from django.template import Context, loader
 from .forms import PostForm
 from django.contrib import messages
+from django.db.models import Q
 
 
 def homepage(request):
@@ -13,11 +14,18 @@ def homepage(request):
 
 @login_required()
 def blog_list_page(request):
+    query = request.GET.get("q", None)
     blog_list = Post.objects.all()
+    print(query)
 
     class UserData:
         name = request.user
         is_logged_in = request.user.is_authenticated
+
+    if query is not None:
+        blog_list = blog_list.filter(Q(title__icontains=query) |
+                                     Q(text__icontains=query) |
+                                     Q(slug__icontains=query) )
 
     template = 'blog/blog_list.html'
     context = {'blog_list': blog_list,

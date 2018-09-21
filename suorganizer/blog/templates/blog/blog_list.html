@@ -13,6 +13,10 @@
     </ul>
     {% endif %}
 
+    <form method="GET" action="/blog">
+        <input type="text" name="q" placeholder="Search">
+    </form>
+
     <h2>Blogs</h2>
     <h3>User : {{user.name}}</h3>
     <h3> Authenticated : {{user.is_logged_in}}</h3>
