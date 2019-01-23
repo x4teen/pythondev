@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Detail</title>
+</head>
+<body>
+
+
+
+<h1 style="color: red">{{ qs.title }} will be Deleted. Are you sure?</h1>
+
+<form method="POST" action="{% url 'delete_post' post_id %}">
+    {% csrf_token %}
+    <input type="submit" style="color: red" value="Delete">
+    <a href="{% url 'list_posts' %}">Cancel</a>
+</form>
+
+
+</body>
+</html>

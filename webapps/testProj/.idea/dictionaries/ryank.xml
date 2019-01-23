@@ -2,6 +2,8 @@
   <dictionary name="ryank">
     <words>
       <w>debugpatterns</w>
+      <w>postpatterns</w>
+      <w>timeframe</w>
     </words>
   </dictionary>
 </component>

@@ -5,7 +5,22 @@
     <title>List Posts</title>
 </head>
 <body>
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
 <h1>Listing of Blog Posts</h1>
+Search :
+<form method="GET" action="{% url 'list_posts' %}">
+    <input type="search" name="q" placeholder="Search Blog">
+</form>
+
+<br>
+
 
 {% for item in qs %}
     Title: <a href="{% url 'show_post_detail' post_id=item.id %}">{{ item.title }}</a>

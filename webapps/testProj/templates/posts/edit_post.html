@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Edit User Data</title>
+    <title>Edit Post</title>
 </head>
 <body>
-<h1>Update User Data</h1>
-<form method='POST' action="{% url 'edit_group' id %}">
+
+<h1>Update Your Post:</h1>
+
+<form method="POST" action="{% url 'edit_post' post_id  %}">
     {% csrf_token %}
     {{ form.as_p }}
+
     <input type="submit" value="Update">
 </form>
 
