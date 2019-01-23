@@ -1,0 +1,11 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>Update Fee Data</h1>
+<form method='POST' action="{% url 'edit_fee' id %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Update">
+</form>
+
+{% endblock %}

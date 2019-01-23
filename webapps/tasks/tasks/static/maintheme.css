@@ -1,0 +1,23 @@
+ /* The side navigation menu */
+.sidebar{
+	height:100%;
+	width:200px;
+	margin-top: 0;
+	background-color: #ffffff;
+	position:fixed!important;
+	z-index:1;
+	overflow:auto}
+
+ .light-gray{
+	 color:#000!important;
+	 background-color: #ffffff !important}
+
+ .bar-block .bar-item{
+	 width:100%;
+	 display:block;
+	 padding:8px;
+	 text-align:center;
+	 border: none;
+	 white-space:normal;
+	 float:none;
+	 outline:0}

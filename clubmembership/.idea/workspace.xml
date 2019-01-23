@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59185c5b-0f8e-427e-b030-e10f2086a6e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/clubmembership.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbProject/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbProject/contact_show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbProject/contact_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbProject/contacts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testExerciss/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testExerciss/math_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testExerciss/test_math_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/migrations/0002_auto_20190116_0823.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/clubmembership/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/templates/add_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/templates/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/templates/edit_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/templates/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/clubmembership/templates/home_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/adoptions/db_query/pet-vaccine.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/adoptions/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/adoptions/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/adoptions/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/management/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/management/commands/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/management/commands/load_pet_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/pet-vaccine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/pet_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/add_pet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/get_pet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/pet_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/templates/search_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapps/wisdompets/vaccination.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clubmembership/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="564" />
+    <option name="y" value="60" />
+    <option name="width" value="904" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clubmembership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clubmembership" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clubmembership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clubmembership" type="462c0819:PsiDirectoryNode" />
+              <item name="clubmembership" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clubmembership" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clubmembership" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59185c5b-0f8e-427e-b030-e10f2086a6e0" name="Default Changelist" comment="" />
+      <created>1547642230449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547642230449</updated>
+      <workItem from="1547642231935" duration="856000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="856000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/clubmembership/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

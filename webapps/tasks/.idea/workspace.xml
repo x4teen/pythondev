@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3593a2dd-1233-4d31-90be-01d6c5a7d752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/clubmembership.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clubmembership/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dbProject/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dbProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dbProject/contact_show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dbProject/contact_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dbProject/contacts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../testExerciss/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../testExerciss/math_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../testExerciss/test_math_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/.idea/dictionaries/ryank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0002_auto_20190116_0823.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0003_auto_20190116_0842.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0004_auto_20190116_0843.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0005_group_members.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0006_remove_group_members.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0007_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/0008_auto_20190116_1134.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/static/maintheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/views/fee_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/views/group_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/views/user_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/clubmembership/views/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/base_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/delete_me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/fee/add_fee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/fee/edit_fee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/fee/show_fee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/group/add_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/group/edit_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/group/show_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/home_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/user/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/user/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clubmembership/templates/user/show_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/0002_auto_20190117_1710.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/static/maintheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/views/resource_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/views/task_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/views/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/delete_me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/adoptions/db_query/pet-vaccine.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/adoptions/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/adoptions/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/adoptions/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/management/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/management/commands/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/management/commands/load_pet_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/pet-vaccine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/pet_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/add_pet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/get_pet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/pet_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/templates/search_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wisdompets/vaccination.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tasks/settings.py" />
+        <option value="$PROJECT_DIR$/tasks/forms.py" />
+        <option value="$PROJECT_DIR$/tasks/views/views.py" />
+        <option value="$PROJECT_DIR$/templates/home_page.html" />
+        <option value="$PROJECT_DIR$/tasks/urls.py" />
+        <option value="$PROJECT_DIR$/templates/navbar.html" />
+        <option value="$PROJECT_DIR$/tasks/static/maintheme.css" />
+        <option value="$PROJECT_DIR$/tasks/views/task_views.py" />
+        <option value="$PROJECT_DIR$/tasks/views/resource_views.py" />
+        <option value="$PROJECT_DIR$/tasks/admin.py" />
+        <option value="$PROJECT_DIR$/tasks/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\pythondev\webapps\tasks\tasks" />
+      <recent name="C:\Dev\pythondev\webapps\tasks\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="tasks" type="Python.DjangoServer" factoryName="Django server">
+      <module name="tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tasks.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3593a2dd-1233-4d31-90be-01d6c5a7d752" name="Default Changelist" comment="" />
+      <created>1547761005217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547761005217</updated>
+      <workItem from="1547761051469" duration="2218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2218000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@tasks" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/base_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/static/maintheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/views/resource_views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/views/task_views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

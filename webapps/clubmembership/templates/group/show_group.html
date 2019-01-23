@@ -1,0 +1,40 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>{{ group.name }} Data</h1>
+    <ul>
+        <li>Group Name : {{ group.name }}</li>
+        <li>Group Description : {{ group.description }}</li>
+        <li>Group Started : {{ group.started }}</li>
+        <li>Members: {{ members.count }}</li>
+    </ul>
+
+    {% if members %}
+        <h2>{{ group.name }} - Member List</h2>
+        <ul>
+            {% for member in members %}
+                <li> <a href="{% url 'show_user' member.id %}">{{ member.name }}</a> </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+
+    <h3><a class="btn btn-primary" href="{% url 'add_fee' %}">Add New Fee</a></h3>
+
+    {% if fees %}
+        <h2>Fee List</h2>
+        <ul>
+            {% for fee in fees %}
+                <li> <a href="{% url 'show_fee' fee.id %}">{{ fee.description }}</a> </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <p>
+        <input type="button" value="Edit"
+                 onclick="window.location.href='{% url 'edit_group' group.id %}'">
+        <input type="button" value="Delete"
+                 onclick="window.location.href='{% url 'delete_group' group.id %}'">
+     </p>
+
+{% endblock %}

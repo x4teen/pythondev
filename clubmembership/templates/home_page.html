@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h2>Registered Users</h2>
+    <ul>
+    {% for p in persons %}
+      <li>   {{ p.name }}
+          <input type="button" value="Edit"
+                 onclick="window.location.href='edit_user/{{ p.id }}'">
+          <input type="button" value="Delete"
+                 onclick="window.location.href='delete_user/{{ p.id }}'">
+      </li>
+    {% endfor %}
+    </ul>
+    <a href="/add_user">Add User</a>
+
+<h2>Groups</h2>
+    <ul>
+    {% for g in groups %}
+      <li>   {{ g.name }}
+           <input type="button" value="Edit"
+                 onclick="window.location.href='edit_group/{{ g.id }}'">
+          <input type="button" value="Delete"
+                 onclick="window.location.href='delete_group/{{ g.id }}'">
+      </li>
+    {% endfor %}
+    </ul>
+    <a href="/add_group">Add Group</a>
+
+</body>
+</html>

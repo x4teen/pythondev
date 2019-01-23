@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>Club Application</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'maintheme.css' %}">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ </head>
+
+<body>
+{#Nav bar#}
+ {% include 'navbar.html' %}
+
+{#Side Bar 10% width#}
+    {% include 'sidebar.html' %}
+
+
+<!-- Page Content -->
+<div style="margin-left:10%">
+    <div class="container">
+
+        {% block content %}<!-- default content text (typically empty) -->{% endblock %}
+
+    </div>
+
+</div>
+
+
+
+<div class="footer">
+    {% block footer %}<!-- default footer text (typically empty) -->{% endblock %}
+</div>
+
+
+
+</body>
+
+</html>

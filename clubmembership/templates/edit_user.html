@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Data</title>
+</head>
+<body>
+<h1>Update User Data</h1>
+<form method='POST' action="{% url 'edit_user' id %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Update">
+</form>
+
+
+
+</body>
+</html>

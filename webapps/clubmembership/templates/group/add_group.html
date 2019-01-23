@@ -1,0 +1,10 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>Add a Group</h1>
+<form method='POST' action="{% url 'add_group' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Add">
+</form>
+{% endblock %}

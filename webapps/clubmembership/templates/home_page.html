@@ -1,0 +1,19 @@
+{% extends "base_template.html" %}
+{% block content %}
+<h2>Registered Users</h2>
+    <ul>
+    {% for p in persons %}
+        <li><a href="{% url 'show_user' p.id %}">{{ p.name }}</a> </li>
+    {% endfor %}
+    </ul>
+
+
+<h2>Groups</h2>
+    <ul>
+    {% for g in groups %}
+        <li><a href="{% url 'show_group' g.id%}">{{ g.name }}</a>   </li>
+    {% endfor %}
+    </ul>
+
+
+{% endblock %}

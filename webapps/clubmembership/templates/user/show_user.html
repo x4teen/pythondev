@@ -1,0 +1,24 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>Show User Data</h1>
+    <ul>
+        <li>Name : {{ person.name }}</li>
+        <li>Gender : {{ person.sex }}</li>
+        <li>Memberships: {{ person.membership.count }}</li>
+    </ul>
+
+<h2>Membership Info</h2>
+    <ul>
+    {% for club in person.membership.all %}
+        <li><a href="{% url 'show_group' club.id %}">{{ club.name }}</a></li>
+    {% endfor %}
+    </ul>
+
+<p>
+{#    <input type="button" value="Edit"#}
+{#                 onclick="window.location.href='{% url 'edit_user' person.id %}'">#}
+{#    <input type="button" value="Delete"#}
+{#                 onclick="window.location.href='{% url 'delete_user' person.id %}'">#}
+ </p>
+{% endblock %}

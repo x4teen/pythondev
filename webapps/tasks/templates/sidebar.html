@@ -1,0 +1,10 @@
+<!-- Sidebar -->
+<div class="sidebar light-grey bar-block" style="width:10%">
+  <h3 class="bar-item">Menu</h3>
+
+    {% for key, value in actions.items %}
+         <a href="{{ value }}" class="bar-item">{{ key }}</a>
+    {% endfor %}
+
+
+</div>

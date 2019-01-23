@@ -1,0 +1,19 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<h1>{{ fee.group.name }} - {{ fee.description }} Charge</h1>
+    <ul>
+        <li>Group : {{ fee.group.name }}</li>
+        <li>Description : {{ fee.description }}</li>
+        <li>Amount: {{ fee.amount }}</li>
+        <li>Period: {{ fee.period }}</li>
+        <li>Effective Date: {{ fee.effective }}</li>
+    </ul>
+
+<p>
+    <input type="button" value="Edit"
+                 onclick="window.location.href='{% url 'edit_fee' fee.id %}'">
+    <input type="button" value="Delete"
+                 onclick="window.location.href='{% url 'delete_fee' fee.id %}'">
+ </p>
+{% endblock %}

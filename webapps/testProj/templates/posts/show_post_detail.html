@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Detail</title>
+</head>
+<body>
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<h1>Post Detail</h1>
+
+{% if qs %}
+    Title: {{ qs.title }} <br>
+    Content: <p>{{ qs.content }}</p>
+    Last Updated: {{ qs.upated }} <br>
+    Created: {{ qs.publish_date }} <br>
+    <br>
+{% endif %}
+
+</body>
+</html>
